@@ -1,4 +1,4 @@
-#define SIZE 8
+#define SIZE 14
 #include <unistd.h>
 #include <stdio.h>
 
@@ -41,7 +41,7 @@ void	erase_queen(int (*f)[SIZE], int j, short first)
 	}
 }
 
-short	fill_field(int (*f)[SIZE], int j)
+int	fill_field(int (*f)[SIZE], int j)
 {
 	int		i;
 	int		sol;
